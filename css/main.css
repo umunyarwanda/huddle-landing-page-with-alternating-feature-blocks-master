@@ -486,6 +486,10 @@ section {
   font-weight: 600;
 }
 
+.foots footer .socials .copyright .copy a {
+  color: #019cf7;
+}
+
 .fix {
   position: fixed;
 }
