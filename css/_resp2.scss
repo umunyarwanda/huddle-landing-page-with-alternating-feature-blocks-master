@@ -1,0 +1,180 @@
+@media screen and (min-width:768px) and (max-width: 1390px){
+    .foots{
+        background: hsl(192, 100%, 9%);
+        min-height: 5vh;
+        
+        footer{
+            padding: 6rem 0;
+            color: rgb(185, 185, 185);
+    
+            .foot-logo{
+                // border: 2px solid green;
+                width: fit-content;
+                width: 200px;
+    
+                img{
+                    display: block;
+                    width: 100%;
+                }
+            }
+    
+            .foot-content{
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                svg{
+                    width: 30px;
+                    height: 30px;
+                    fill: #019cf7;
+                }
+                .locations{
+                    display: flex;
+                    flex-direction: column;
+    
+                    .place{
+                        display: flex;
+                        margin-top: 20px;
+                        align-items: center;
+                        // border: 2px solid red;
+                        .place-svg{
+                            svg{
+                                width: 30px;
+                                height: 30px;
+                                margin-right: 13px;
+                            }
+                        }
+    
+                        .place-cnt{
+                            p{
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .infos{
+                display: flex;
+                justify-content: space-between;
+                // border: 2px solid yellow;
+                color: white;
+    
+                p{
+                    display: flex;
+                    align-items: center;
+                    margin-top: 12px;
+                    // border: 2px solid red;
+                    width: fit-content;
+                    transition: .8s;
+    
+                    &:hover{
+                        a{
+                            color: white;
+    
+                            &::after{
+                                position: absolute;
+                                content: '';
+                                width: 100%;
+                                transform: scale(0,1);
+                                height: 3px;
+                                border-radius: 3px;
+                                background: hsl(322, 100%, 66%);
+                                left: 0;
+                                display: block;
+                                bottom: -5px;
+                                transition: .8s;
+                            }
+                        }
+    
+                        svg{
+                            fill: hsl(322, 100%, 66%);
+                            transition: .8s;
+                        }
+                    }
+    
+                    svg{
+                        margin-right: 9px;
+                        fill: #019cf7;
+                        transition: .8s;
+                    }
+    
+                    a{
+                        text-decoration: none;
+                        color: gray;
+                        font-weight: 500;
+                        position: relative;
+                        transition: .6s;
+    
+                        &:hover{
+                            color: white;
+                            &::after{
+                                transform: scale(1,1);
+                                transition: .8s;
+                            }
+                        }
+    
+                        &::after{
+                            position: absolute;
+                            content: '';
+                            width: 100%;
+                            transform: scale(0,1);
+                            height: 3px;
+                            border-radius: 3px;
+                            background: hsl(322, 100%, 66%);
+                            left: 0;
+                            display: block;
+                            bottom: -5px;
+                            transition: .8s;
+                        }
+                    }
+                }
+    
+                .infos-left{
+                    margin-right: 60px;
+                    margin-left: 0px;
+                }
+    
+                .infos-right{
+                    margin-right: 24px;
+                }
+            }
+    
+            .socials{
+                // border: 2px solid red;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: right;
+                width: 100%;
+    
+                a{
+                    color: transparent;
+    
+                    &:hover{
+                        svg{
+                            fill: hsl(322, 100%, 66%);
+                            border: 2px solid hsl(322, 100%, 66%);
+                        }
+                    }
+    
+                    svg{
+                        border: 2px solid #019cf7;
+                        border-radius: 50%;
+                        width: 40px;
+                        height: 40px;
+                        padding: 5px;
+                        transition: .8s;
+                        fill: #019cf7;
+                        margin-top: 12px;
+                        margin-bottom: 12px;
+                        text-align: center;
+                    }
+                }
+    
+                .copyright{
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
