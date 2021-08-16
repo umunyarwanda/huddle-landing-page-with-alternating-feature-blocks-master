@@ -399,6 +399,12 @@ section{
 
             .copyright{
                 font-weight: 600;
+
+                .copy{
+                    a{
+                        color: #019cf7
+                    }
+                }
             }
         }
     }
@@ -428,6 +434,8 @@ section{
         }
     }
 }
+
+
 
 @import "./responsive";
 @import "./resp2"
