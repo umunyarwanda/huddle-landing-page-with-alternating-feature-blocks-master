@@ -488,6 +488,7 @@ section {
 
 .foots footer .socials .copyright .copy a {
   color: #019cf7;
+  text-align: center;
 }
 
 .fix {
@@ -557,7 +558,7 @@ section {
     border: none;
     font-size: 2.7vw;
     border-radius: 30px;
-    width: 200px;
+    width: 190px;
     text-decoration: none;
     background: white;
     -webkit-box-shadow: 2px 3px 9px #808d99;
@@ -599,13 +600,13 @@ section {
     font-family: poppins;
     margin-bottom: 24px;
     font-size: 30px;
-    font-size: 4vw;
+    font-size: 7vw;
     text-align: center;
   }
   .home .home-content .home-content-left p {
     font-family: montserrat;
     margin-bottom: 35px;
-    font-size: 2.3vw;
+    font-size: 3.5vw;
     text-align: center;
   }
   .home .home-content .home-content-left a {
@@ -623,7 +624,7 @@ section {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    font-size: 2vw;
+    font-size: 3vw;
     color: white;
     font-weight: 500;
   }
@@ -680,13 +681,13 @@ section {
             justify-content: center;
   }
   .illustrations .containers .card .card-txt .card-cnt h3 {
-    font-size: 4vw;
+    font-size: 5vw;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
   }
   .illustrations .containers .card .card-txt .card-cnt p {
-    font-size: 3.8vw;
+    font-size: 3.5vw;
     text-align: center;
     margin-bottom: 15px;
   }
