@@ -491,6 +491,10 @@ section {
   text-align: center;
 }
 
+.foots footer .socials .copyright .copy a:hover {
+  text-decoration: none;
+}
+
 .fix {
   position: fixed;
 }

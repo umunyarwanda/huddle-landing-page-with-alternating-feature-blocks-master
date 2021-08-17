@@ -404,6 +404,9 @@ section{
                     a{
                         color: #019cf7;
                         text-align: center;
+                        &:hover{
+                            text-decoration: none;
+                        }
                     }
                 }
             }
